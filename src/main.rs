@@ -1,5 +1,7 @@
 mod smart_socket;
 mod smart_thermometer;
+mod house;
+mod room;
 
 fn main() {
     let mut smart_socket = smart_socket::SmartSocket {
